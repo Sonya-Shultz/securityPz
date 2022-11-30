@@ -116,6 +116,11 @@ const users = [
         login: 'Login1',
         password: 'Password1',
         username: 'Username1',
+    },
+    {
+        login: 'Shults',
+        password: 'banana',
+        username: 'Sophia',
     }
 ]
 
