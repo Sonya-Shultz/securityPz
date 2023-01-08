@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <link href="./additional/style.css" rel="stylesheet">
+        <script src="./additional/script2.js"></script>
+    </head>
+
+    <body>
+        <main id="main-singup-holder">
+
+            <div id="singup-error-msg-holder">
+                <p id="singup-error-msg">Invalid data...</p>
+            </div>
+
+            <form id="singup-form" action="/api/singup" method="post">
+                <input type="text" name="nikname" id="nickname-field" class="singup-form-field" placeholder="Nikname">
+                <input type="text" name="given_name" id="given-name-field" class="singup-form-field" placeholder="Given name">
+                <input type="text" name="family_name" id="family-name-field" class="singup-form-field" placeholder="Family name">
+                <input type="email" name="email" id="email-field" class="singup-form-field" placeholder="E-mail">
+                <input type="password" name="password" id="password-field" class="singup-form-field" placeholder="Password">
+                <input type="submit" value="Sing Up" id="singup-form-submit">
+            </form>
+
+            <a href="/login" id="login">or you can login</a>
+
+        </main>
+    </body>
+</html>
